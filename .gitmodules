@@ -1,0 +1,3 @@
+[submodule "pers"]
+	path = pers
+	url = https://github.com/seifbreizat/pers.git
