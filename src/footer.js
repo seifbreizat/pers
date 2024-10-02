@@ -20,7 +20,7 @@ const Footer =()=> {
             <img class="link-img" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-instegram.png" alt="instegram"/>
           </a>
           
-          </div>
+          
     
       </div>
       </footer>
