@@ -9,7 +9,7 @@ status = 200
 
 
 resolve = {
-fallbac: {
+fallback: {
 "http": require.resolve("stream-http")
 }
 
