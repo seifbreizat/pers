@@ -17,7 +17,7 @@ const Consult = () =>{
         try{
 
 
-            await axios.post('https://localhost:5000/send-email', {
+            await fetch('https://localhost:5000/send-email', {
                 method:"POST",
                 headers:{
                   "content-Type":"Application/json"
