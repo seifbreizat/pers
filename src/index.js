@@ -17,21 +17,3 @@ root.render(
 reportWebVitals();
 
 
-var express = require('express');
-var nodemailer = require('nodemailer');
-var path = require('path');
-var http =  require('http');
-
-var app = express();
- var port =500;
-var server = http.server(app);
-
-app.set('port', port);
-app.use(express.json());
-app.use(express.urlencoded({extended:true}));
-app.use(express.static(path.join(_dirname, "page/BookConsult.js")));
-
-app.get("/BookConsult.js", function(req, response){
-
-  response.sendFile(path.join(_dirname, "page//BookConsult.js"))
-})
