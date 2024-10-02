@@ -8,8 +8,8 @@ status = 200
 
 
 
-resolve: {
+resolve = {
 fallbac: {
 "http": require.resolve("stream-http")
 }
-}
+
