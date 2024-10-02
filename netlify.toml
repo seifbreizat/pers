@@ -5,10 +5,11 @@ from = "/*"
 to = "/index.html"
 
 status = 200
-
+module.exports = {
 resolve: {
   fallback: {
     "http": require.resolve("stream-http")
   }
 }
 
+};
