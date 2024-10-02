@@ -2,8 +2,3 @@
 	path = pers
 	url = https://github.com/seifbreizat/pers.git
 
-resolve: {
-  fallback: {
-    "http": require.resolve("stream-http")
-  }
-}
