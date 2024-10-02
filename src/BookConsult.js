@@ -51,7 +51,7 @@ const Consult = () =>{
                                <h2>            Contact Us             </h2>
         
         
-        <form>
+        <form onSubmit={handleSubmit}>
       <label htmlFor="name">Name:</label>
       <input type="text" id="name" name="name" value={name} onChange={(e)=> setName(e.target.value)}/>
 
