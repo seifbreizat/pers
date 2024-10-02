@@ -51,7 +51,7 @@ const Consult = () =>{
                                <h2>            Contact Us             </h2>
         
         
-        <Form>
+        <form>
       <label htmlFor="name">Name:</label>
       <input type="text" id="name" name="name" value={name} onChange={(e)=> setName(e.target.value)}/>
 
@@ -63,8 +63,8 @@ const Consult = () =>{
          <label htmlFor="message"> Message:</label>
       <textarea id="message" name="message" value={message} onChange={(e)=> setMessage(e.target.value)} />
 
-       <Button  variant="primary" type="submit"> Send </Button>
-       </Form>
+       <button  variant="primary" type="submit"> Send </button>
+       </form>
         </div>
         </>
 
