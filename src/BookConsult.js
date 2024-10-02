@@ -1,6 +1,5 @@
 import './App.css';
 import { useState } from 'react';
-import {axios} from 'react';
 import NavBar from './NavBar';
 
 const Consult = () =>{
