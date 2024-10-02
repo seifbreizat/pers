@@ -6,10 +6,10 @@ to = "/index.html"
 
 status = 200
 
+
+
 resolve: {
-  fallback: {
-    "http": require.resolve("stream-http")
-  }
+fallbac: {
+"http": require.resolve("stream-http")
 }
-
-
+}
