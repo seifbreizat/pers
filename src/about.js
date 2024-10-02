@@ -6,7 +6,7 @@ const About = () =>{
 
     return (
         <>
-        
+        <NavBar/>
         <h3><strong>Skills</strong></h3>
         <br></br>
         <br></br>
