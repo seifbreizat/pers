@@ -8,9 +8,3 @@ status = 200
 
 
 
-resolve = {
-fallback: {
-"http": require.resolve("stream-http")
-}
-
-}
