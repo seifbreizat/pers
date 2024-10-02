@@ -13,3 +13,4 @@ fallbac: {
 "http": require.resolve("stream-http")
 }
 
+}
