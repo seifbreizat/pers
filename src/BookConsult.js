@@ -1,7 +1,5 @@
 import './App.css';
 import { useState } from 'react';
-import Form from "react-bootstrap/Form";
-import Button from "react-bootstrap/Button";
 import {axios} from 'react';
 import NavBar from './NavBar';
 
@@ -54,15 +52,15 @@ const Consult = () =>{
         
         
         <Form>
-      <Form.Label htmlFor="name">Name:</Form.Label>
+      <label htmlFor="name">Name:</label>
       <input type="text" id="name" name="name" value={name} onChange={(e)=> setName(e.target.value)}/>
 
-      <Form.Label htmlFor="email">Email:</Form.Label>
+      <label htmlFor="email">Email:</label>
       <input type="email" id="email" name="email" value={email} onChange={(e)=> setEmail(e.target.value)} placeholder="Recepient"/>
 
-      <Form.Label htmlFor="subject">Subject:</Form.Label>
+      <label htmlFor="subject">Subject:</label>
       <input type="text" name="subject" value={subject} onChange={(e)=> setSubject(e.target.value)}/>
-         <Form.Label htmlFor="message"> Message:</Form.Label>
+         <label htmlFor="message"> Message:</label>
       <textarea id="message" name="message" value={message} onChange={(e)=> setMessage(e.target.value)} />
 
        <Button  variant="primary" type="submit"> Send </Button>
