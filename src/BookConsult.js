@@ -1,6 +1,6 @@
 import './App.css';
 import { useState } from 'react';
-import NavBar from './NavBar';
+
 
 const Consult = () =>{
 
@@ -46,7 +46,7 @@ const Consult = () =>{
 
     return(
         <>
-        <NavBar/>
+      
        <div class="container">
                                <h2>            Contact Us             </h2>
         
