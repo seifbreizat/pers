@@ -1,5 +1,4 @@
 import './App.css';
-import axios from "react";
 import { useState } from 'react';
 
 
@@ -7,10 +6,10 @@ const Consult = () =>{
 
     
 
-    const [from, setFrom] = useState('');
-    const [to, setTo] = useState('');
+    const [Name, setName] = useState('');
+    const [Email, setEmail] = useState('');
     const [subject, setSubject] = useState('');
-    const [text, setText] = useState('');
+    const [Message, setMessage] = useState('');
 
     const handleSubmit= async (e) => {
         e.preventDefault();
@@ -26,10 +25,10 @@ const Consult = () =>{
 
                 
 
-                from,
-                to,
+                Name,
+                Email,
                 subject,
-                text
+                Message
                 })
                 
         });
@@ -53,16 +52,16 @@ const Consult = () =>{
         
         
         <form onSubmit={handleSubmit} action="../BookConsult.js">
-      <label htmlFor="from">From:</label>
-      <input type="text" id="from" name="from" value={from} onChange={(e)=> setFrom(e.target.value)}/>
+      <label htmlFor="name">Name:</label>
+      <input type="text" id="name" name="name" value={name} onChange={(e)=> setFrom(e.target.value)}/>
 
       <label htmlFor="to">To:</label>
-      <input type="to" id="to" name="to" value={to} onChange={(e)=> setTo(e.target.value)} placeholder="Recepient"/>
+      <input type="to" id="name" name="name" value={name} onChange={(e)=> setTo(e.target.value)} placeholder="Recepient"/>
 
       <label htmlFor="subject">Subject:</label>
       <input type="text" name="subject" value={subject} onChange={(e)=> setSubject(e.target.value)}/>
-         <label htmlFor="text"> Text:</label>
-      <textarea id="text" name="text" value={text} onChange={(e)=> setText(e.target.value)} />
+         <label htmlFor="message"> Message:</label>
+      <textarea id="text" name="message" value={message} onChange={(e)=> setText(e.target.value)} />
 
        <button  variant="primary" type="submit"> Send </button>
        </form>
