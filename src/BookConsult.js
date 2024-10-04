@@ -6,10 +6,10 @@ const Consult = () =>{
 
     
 
-    const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
+    const [from, setFrom] = useState('');
+    const [to, setTo] = useState('');
     const [subject, setSubject] = useState('');
-    const [message, setMessage] = useState('');
+    const [text, setText] = useState('');
 
     const handleSubmit= async (e) => {
         e.preventDefault();
@@ -25,10 +25,11 @@ const Consult = () =>{
 
                 
 
-                name,
-                email,
+                from,
+                to,
                 subject,
-                message
+                text,
+                html
                 })
                 
         });
@@ -52,16 +53,16 @@ const Consult = () =>{
         
         
         <form onSubmit={handleSubmit}>
-      <label htmlFor="name">Name:</label>
-      <input type="text" id="name" name="name" value={name} onChange={(e)=> setName(e.target.value)}/>
+      <label htmlFor="from">From:</label>
+      <input type="text" id="from" name="from" value={from} onChange={(e)=> setFrom(e.target.value)}/>
 
-      <label htmlFor="email">Email:</label>
-      <input type="email" id="email" name="email" value={email} onChange={(e)=> setEmail(e.target.value)} placeholder="Recepient"/>
+      <label htmlFor="to">To:</label>
+      <input type="to" id="to" name="to" value={to} onChange={(e)=> setTo(e.target.value)} placeholder="Recepient"/>
 
       <label htmlFor="subject">Subject:</label>
       <input type="text" name="subject" value={subject} onChange={(e)=> setSubject(e.target.value)}/>
-         <label htmlFor="message"> Message:</label>
-      <textarea id="message" name="message" value={message} onChange={(e)=> setMessage(e.target.value)} />
+         <label htmlFor="text"> Text:</label>
+      <textarea id="text" name="text" value={text} onChange={(e)=> setText(e.target.value)} />
 
        <button  variant="primary" type="submit"> Send </button>
        </form>
