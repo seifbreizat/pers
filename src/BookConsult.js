@@ -29,8 +29,7 @@ const Consult = () =>{
                 from,
                 to,
                 subject,
-                text,
-                html
+                text
                 })
                 
         });
