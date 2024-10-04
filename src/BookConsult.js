@@ -1,4 +1,5 @@
 import './App.css';
+import axios from "react";
 import { useState } from 'react';
 
 
@@ -52,7 +53,7 @@ const Consult = () =>{
                                <h2>            Contact Us             </h2>
         
         
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} action="../BookConsult.js">
       <label htmlFor="from">From:</label>
       <input type="text" id="from" name="from" value={from} onChange={(e)=> setFrom(e.target.value)}/>
 
