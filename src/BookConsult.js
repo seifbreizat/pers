@@ -6,10 +6,10 @@ const Consult = () =>{
 
     
 
-    const [Name, setName] = useState('');
-    const [Email, setEmail] = useState('');
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
     const [subject, setSubject] = useState('');
-    const [Message, setMessage] = useState('');
+    const [message, setMessage] = useState('');
 
     const handleSubmit= async (e) => {
         e.preventDefault();
@@ -25,10 +25,10 @@ const Consult = () =>{
 
                 
 
-                Name,
-                Email,
+                name,
+                email,
                 subject,
-                Message
+                message
                 })
                 
         });
@@ -45,28 +45,28 @@ const Consult = () =>{
 
 
     return(
-        <>
+    
       
        <div class="container">
                                <h2>            Contact Us             </h2>
         
         
-        <form onSubmit={handleSubmit} action="../BookConsult.js">
+        <form onSubmit={handleSubmit} action="BookConsult.js" method="POST">
       <label htmlFor="name">Name:</label>
       <input type="text" id="name" name="name" value={name} onChange={(e)=> setFrom(e.target.value)}/>
 
       <label htmlFor="to">To:</label>
-      <input type="to" id="name" name="name" value={name} onChange={(e)=> setTo(e.target.value)} placeholder="Recepient"/>
+      <input type="to" id="to" name="to" value={to} onChange={(e)=> setTo(e.target.value)} placeholder="Recepient"/>
 
       <label htmlFor="subject">Subject:</label>
       <input type="text" name="subject" value={subject} onChange={(e)=> setSubject(e.target.value)}/>
          <label htmlFor="message"> Message:</label>
-      <textarea id="text" name="message" value={message} onChange={(e)=> setText(e.target.value)} />
+      <textarea id="message" name="message" value={message} onChange={(e)=> setMessage(e.target.value)} />
 
        <button  variant="primary" type="submit"> Send </button>
        </form>
         </div>
-        </>
+        
 
     );
 }
