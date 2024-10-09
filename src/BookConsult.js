@@ -1,5 +1,5 @@
 import './App.css';
-import { useState } from 'react';
+import React,{ useState } from 'react';
 import axios from 'react';
 
 const Consult = () =>{
@@ -17,7 +17,7 @@ const Consult = () =>{
         try{
 
 
-            await fetch('https://localhost:5000/send-email', {
+            await axios.post('https://localhost:5000/send-email', {
                 method:"POST",
                 headers:{
                   "content-Type":"Application/json"
