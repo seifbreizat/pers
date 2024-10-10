@@ -7,9 +7,11 @@ const Footer =()=> {
     return(
       <>
         <footer>
+        <div>    <Link to="/privacy"><h1>Privacy</h1></Link>
+</div>
       <div>
+        
       <p>Seif @ {new Date().getFullYear()}.All Rights reserved</p>
-    <Link to="/privacy"><h1>Privacy</h1></Link>
     </div>
    <div>
      
