@@ -1,5 +1,5 @@
 import './App.css';
-import Privacy from "privacy.js";
+import Privacy from "./privacy.js";
 
 const Footer =()=> {
 
