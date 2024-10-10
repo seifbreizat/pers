@@ -219,3 +219,9 @@ ul{
         z-index: 1;
         border: 1px solid black;
         }
+img{
+    position:relative;
+    hight: 20ox;
+    width:100px;
+   
+}
