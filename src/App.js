@@ -22,16 +22,20 @@ import Privacy from "./privacy";
       <Route exact path="/" element={<Home/>}/> 
       <Route path="/about" element={<About/>}/> 
       <Route path="/BookConsult" element={<Consult/>}/> 
-      <Route path="/privacy" element={<Privacy/>}/> 
+     
       
       </Routes>
       </div>
   </BrowserRouter>  
   <Footer/>  
-  </React.Fragment>     
- 
+  <BrowserRouter>  
+     <Routes>
+      <Route exact path="/privacy" element={<Privacy/>}/> 
+      
+      
+      </Routes>
     
-  
+  </BrowserRouter>  
  
   );
  
