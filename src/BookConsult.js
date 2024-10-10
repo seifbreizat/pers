@@ -53,10 +53,10 @@ const Consult = () =>{
         
         <form onSubmit={handleSubmit} action="BookConsult.js" method="POST">
       <label htmlFor="name">Name:</label>
-      <input type="text" id="name" name="name" value={name} onChange={(e)=> setFrom(e.target.value)}/>
+      <input type="text" id="name" name="name" value={name} onChange={(e)=> setName(e.target.value)}/>
 
-      <label htmlFor="to">To:</label>
-      <input type="to" id="to" name="to" value={to} onChange={(e)=> setTo(e.target.value)} placeholder="Recepient"/>
+      <label htmlFor="email">To:</label>
+      <input type="email" id="email" name="email" value={to} onChange={(e)=> setEmail(e.target.value)} placeholder="Recepient"/>
 
       <label htmlFor="subject">Subject:</label>
       <input type="text" name="subject" value={subject} onChange={(e)=> setSubject(e.target.value)}/>
