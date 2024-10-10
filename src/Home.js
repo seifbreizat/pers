@@ -1,10 +1,5 @@
-import './App.css';
-
-
-
+import './App.css';  
        
-       
-
 function Home() {
       
   
@@ -37,7 +32,7 @@ function Home() {
             </br>
                                        <p style={ {textAlign:'center'} }>Seif Albreizat</p>
                </div>
-
+<div>
        <h2> <strong> Google Cloude Computing</strong> </h2>
 
        
@@ -49,9 +44,10 @@ function Home() {
     <li>   Application Infrastructure </li>
     <li>   Google Drive </li>
        </ul>
+       </div>
         </>
     );
-}
+};
 
 
 
