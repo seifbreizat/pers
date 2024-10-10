@@ -6,6 +6,7 @@ import About from "./about";
 import NavBar from "./NavBar";
 import Footer from './footer';
 import Consult from './BookConsult';
+import Privacy from "./privacy";
 
 
 
