@@ -14,6 +14,7 @@ import Consult from './BookConsult';
 
    
   return (
+   <div>
   <React.Fragment>
    <BrowserRouter>  
     <div className='App'>
@@ -27,7 +28,7 @@ import Consult from './BookConsult';
   </BrowserRouter>
   </React.Fragment>
   <Footer/>  
-  
+  </div>
       
     
   );
