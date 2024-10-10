@@ -1,5 +1,5 @@
 import './App.css';
-
+import Privacy from "privacy.js";
 
 const Footer =()=> {
 
@@ -8,6 +8,7 @@ const Footer =()=> {
         <footer>
       <div>
       <p>Seif @ {new Date().getFullYear()}.All Rights reserved</p>
+    <Link to="/privacy">Privacy</Link>
     </div>
    <div>
      
