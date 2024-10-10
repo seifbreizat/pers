@@ -4,7 +4,7 @@ function Privacy ()  {
 
   return (
     <h1>Privacy Policy:</h1>
- <p>Information Collection:
+ <p><span>Information Collection:
 
 We collect personal information such as name, email address, and browsing data.
 Information is collected directly through forms and indirectly through cookies, web beacons, and third-party services.
@@ -35,7 +35,7 @@ Our site complies with relevant privacy regulations, including the GDPR and CCPA
 Users have the right to access, modify, or request deletion of their personal information.
 Policy Updates:
 
-This policy may be updated periodically. The latest update will be reflected with the date of modification.</p>
+This policy may be updated periodically. The latest update will be reflected with the date of modification.</span></p>
     );
 };
 export default Privacy;
