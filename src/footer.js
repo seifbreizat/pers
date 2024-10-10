@@ -8,7 +8,7 @@ const Footer =()=> {
         <footer>
       <div>
       <p>Seif @ {new Date().getFullYear()}.All Rights reserved</p>
-    <Link to="/privacy">Privacy</Link>
+    <Link to="/Privacy">Privacy</Link>
     </div>
    <div>
      
