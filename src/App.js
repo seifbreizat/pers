@@ -26,7 +26,8 @@ import Privacy from "./privacy";
       
       </Routes>
       </div>
-  </BrowserRouter>  
+  </BrowserRouter>
+  </React.Fragment>
   <Footer/>  
   
       
