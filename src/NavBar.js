@@ -1,6 +1,6 @@
 import './App.css';
 import {Link} from "react-router-dom";
-import treeLogo "tree.svg";
+import treeLogo "./tree.svg";
 const NavBar = () => {
 
     return (
