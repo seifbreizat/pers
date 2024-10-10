@@ -37,7 +37,7 @@ Users have the right to access, modify, or request deletion of their personal in
 Policy Updates:
 
 This policy may be updated periodically. The latest update will be reflected with the date of modification.
+  </>
     );
 };
-</>
 export default Privacy;
