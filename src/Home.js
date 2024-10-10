@@ -20,15 +20,16 @@ function Home() {
         <div className="card white">
       <div className="card-header" class="title">
         
-        <h2>Web Development</h2>
+        <h3>Web Development</h3>
         <img src="illu.jpeg"  height={100} width={100} alt="IMF website first-page"/>
       </div>
       <div className="card-body">
-        <p>Card content goes here...</p>
+        <p> Develop custom websites that are responsive</p>
       </div>
     </div>
    
     <div>
+       
 
     <h1>"Life is to work where you are fit to embrace peace and calme and mental growth"</h1>
 
@@ -36,7 +37,18 @@ function Home() {
             </br>
                                        <p style={ {textAlign:'center'} }>Seif Albreizat</p>
                </div>
-               
+
+       <h2> <strong> Google Cloude Computing</strong> </h2>
+
+       
+             <p> Google cloud serves Application deployment and hosting with robust security procedures and scalable technology. Technology found on google cloud infrastructure include:
+</p>
+<ul>
+      <li> Application deployment </li>
+       <li> Application security</li>
+    <li>   Application Infrastructure </li>
+    <li>   Google Drive </li>
+       </ul>
         </>
     );
 }
