@@ -22,6 +22,7 @@ import Privacy from "./privacy";
       <Route exact path="/" element={<Home/>}/> 
       <Route path="/about" element={<About/>}/> 
       <Route path="/BookConsult" element={<Consult/>}/> 
+      <Route path="/privacy" element={<Privacy/>}/> 
       
       </Routes>
       </div>
