@@ -9,7 +9,7 @@ const About = () =>{
         <br></br>
         <br></br>
    
-        <p><span>My name is Seif Al-Breizat,and I am good at playing soccer, chess, swimming, politics, volleyball, I am fantasised by new trends in technology.I like doing sports. I like watching films sometimes and do coding inmy free time or full time free time. I am fabulous at buliding websites using modern technologies.</span></p>
+        <p><span>Passionate software engineer with prove expertise developing desired applications.</span></p>
      
         </>
     );
