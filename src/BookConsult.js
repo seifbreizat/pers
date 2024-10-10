@@ -55,8 +55,8 @@ const Consult = () =>{
       <label htmlFor="name">Name:</label>
       <input type="text" id="name" name="name" value={name} onChange={(e)=> setName(e.target.value)}/>
 
-      <label htmlFor="email">To:</label>
-      <input type="email" id="email" name="email" value={to} onChange={(e)=> setEmail(e.target.value)} placeholder="Recepient"/>
+      <label htmlFor="email">Email:</label>
+      <input type="email" id="email" name="email" value={email} onChange={(e)=> setEmail(e.target.value)} placeholder="Recepient"/>
 
       <label htmlFor="subject">Subject:</label>
       <input type="text" name="subject" value={subject} onChange={(e)=> setSubject(e.target.value)}/>
