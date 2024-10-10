@@ -8,7 +8,7 @@ const Footer =()=> {
       <>
         <footer>
         <div>    
-        <a href="privacy.js"> Privacy </a>
+        <a href="privacy"> Privacy </a>
 </div>
       <div>
         
