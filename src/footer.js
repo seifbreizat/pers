@@ -1,6 +1,6 @@
 import './App.css';
-import {Link} "react";
-from "import Privacy from "./privacy.js";
+import {Link} from "react";
+import Privacy from "./privacy.js";
 
 const Footer =()=> {
 
