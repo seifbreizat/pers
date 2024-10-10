@@ -28,15 +28,9 @@ import Privacy from "./privacy";
       </div>
   </BrowserRouter>  
   <Footer/>  
-  <BrowserRouter>  
-     <Routes>
-      <Route exact path="/privacy" element={<Privacy/>}/> 
+  
       
-      
-      </Routes>
     
-  </BrowserRouter>  
- 
   );
  
 };
