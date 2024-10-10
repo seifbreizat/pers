@@ -6,7 +6,7 @@ import About from "./about";
 import NavBar from "./NavBar";
 import Footer from './footer';
 import Consult from './BookConsult';
-import Privacy from "./privacy";
+
 
 
 
@@ -21,9 +21,7 @@ import Privacy from "./privacy";
     <Routes>
       <Route exact path="/" element={<Home/>}/> 
       <Route path="/about" element={<About/>}/> 
-      <Route path="/BookConsult" element={<Consult/>}/> 
-     
-      
+      <Route path="/BookConsult" element={<Consult/>}/>
       </Routes>
       </div>
   </BrowserRouter>
