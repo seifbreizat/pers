@@ -1,12 +1,14 @@
 import './App.css';
-import {Link} from "react-router-dom";
+
+
 
 const Footer =()=> {
 
     return(
       <>
         <footer>
-        <div>    <Link to="/privacy"><h1>Privacy</h1></Link>
+        <div>    
+        <a href="https://sfalbreizat.netlify.app/privacy"></a>
 </div>
       <div>
         
