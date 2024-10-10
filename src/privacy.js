@@ -3,6 +3,7 @@ import "./App.css"
 function Privacy ()  {
 
   return (
+    <>
     <h1>Privacy Policy:</h1>
  <p>Information Collection:</p>
 
@@ -38,4 +39,5 @@ Policy Updates:
 This policy may be updated periodically. The latest update will be reflected with the date of modification.
     );
 };
+</>
 export default Privacy;
