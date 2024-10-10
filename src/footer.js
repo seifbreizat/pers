@@ -8,7 +8,7 @@ const Footer =()=> {
       <>
         <footer>
         <div>    
-        <a href="https://sfalbreizat.netlify.app/privacy"></a>
+        <a href="https://sfalbreizat.netlify.app/privacy"> Privacy </a>
 </div>
       <div>
         
