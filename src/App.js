@@ -26,8 +26,8 @@ import Consult from './BookConsult';
       </Routes>
       </div>
   </BrowserRouter>
-  <Footer/>  
   </React.Fragment>
+  <Footer/>
   </div>
       
     
