@@ -225,3 +225,9 @@ img{
     width:100px;
    
 }
+
+Home{
+    div{
+        position: relative;
+    }
+}
