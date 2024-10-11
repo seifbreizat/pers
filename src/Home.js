@@ -32,10 +32,11 @@ const Home=()=> {
             </br>
                                        <p style={ {textAlign:'center'} }>Seif Albreizat</p>
                </div>
-<div>
+<div class="text-main>
        <h2> <strong> Google Cloude Computing</strong> </h2>
+       </div>
 
-       
+       <div>
              <p> Google cloud serves Application deployment and hosting with robust security procedures and scalable technology. Technology found on google cloud infrastructure include:
 </p>
 <ul>
