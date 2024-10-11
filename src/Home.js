@@ -32,7 +32,7 @@ const Home=()=> {
             </br>
                                        <p style={ {textAlign:'center'} }>Seif Albreizat</p>
                </div>
-<div class="text-main>
+<div class="text-main">
        <h2> <strong> Google Cloude Computing</strong> </h2>
        </div>
 
