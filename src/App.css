@@ -1,7 +1,7 @@
 
 ul{
     color: rgba(34, 31, 219, 0.671);
-    position: absolute;
+    position: relative;
     z-index:20;  
     text-shadow: auto #dd0b03;
     font-size: 1px solid ;
