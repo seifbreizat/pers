@@ -12,6 +12,7 @@ const Home=()=> {
             <p> {new Date().toLocaleString()} </p>
        
         </div>
+       <div class="content">
         <div className="card white">
       <div className="card-header" class="title">
         
@@ -45,6 +46,7 @@ const Home=()=> {
     <li>   Application Infrastructure </li>
     <li>   Google Drive </li>
        </ul>
+       </div>
        </div>
         </>
     );
