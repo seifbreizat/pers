@@ -1,4 +1,4 @@
-import "./Ap.css"
+import "./App.css"
 
 const Gallery = () => {
 
