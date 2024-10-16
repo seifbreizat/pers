@@ -9,7 +9,7 @@ const Home=()=> {
         <div> 
 
         
-            <p> {new Date().toLocaleString()} </p>
+          
        
         </div>
        <div class="content">
@@ -34,20 +34,29 @@ const Home=()=> {
                                        <p style={ {textAlign:'center'} }>Seif Albreizat</p>
                </div>
 <div class="text-main">
-       <h2> <strong> Google Cloude Computing</strong> </h2>
+       <h2> <strong> Fshion </strong> </h2>
        </div>
 
        <div>
-             <p> Google cloud serves Application deployment and hosting with robust security procedures and scalable technology. Technology found on google cloud infrastructure include:
+             <p>Fashion
+Many fashion experts say that fashion is a source of inspiration and beauty.  Fashion is a great cultural scope that reflects the culture of the different communities living in this world and those that died. It is segmented to be elegant and sharp point in terms of showing personality and charisma as well as Religious affiliations and religious associations and occasions. Fashion is nice to be called the point of change especially at social or political visits and at work to adhere to work policies and environment settings. 
+
+
+Four points aspects that determine fashion which are as follows:
+•	Size depending on the individual who puts the clothes on.
+•	Color according to preferences. 
+•	 Compatibility with shoes or formal foot wear. 
+•	Material.
+
+
+
+Fashion is good and wearing cools clothes is nice. 
+
+
 </p>
-<ul>
-      <li> Application deployment </li>
-       <li> Application security</li>
-    <li>   Application Infrastructure </li>
-    <li>   Google Drive </li>
-       </ul>
+
        </div>
-       </div>
+     
         </>
     );
 };
