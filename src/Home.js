@@ -14,7 +14,7 @@ const Home=()=> {
            <h3 class="css-j9v18q e27kk5e0"><a class="css-1u3p7j1" data-rref="" href="/2024/10/16/style/prada-axiom-space-suits.html">Space: The Final Fashion Frontier</a></h3>
            <p class="css-f9p5k6 e27kk5e1">Prada and Axiom Space unveiled their NASA spacesuits, in the most far-out collaboration yet.</p>
            <p class="css-ql2p4f e1hr934v3"><span class="css-me3p27"><span data-testid="todays-date" aria-label="6h ago">6h ago</span></span>
-        </article></li></p>
+           </p> </article></li>
            <li class="css-ikiut1"><article class="css-2j26di"><div class="story-body css-10wtrbd">
            <div class="css-10lk8ze e1hr934v0">ASK Vanessa</div><h3 class="css-1x50auk e27kk5e2">
            <a class="css-1u3p7j1" data-rref="" href="/2024/10/14/style/leopard-cheetah-print-fashion.html">Will Leopard Print Ever Go Out of Style?</a></h3>
