@@ -6,7 +6,7 @@ import About from "./about";
 import NavBar from "./NavBar";
 import Footer from './footer';
 import Consult from './BookConsult';
-
+import Gallery from "./Gallery";
 
 
 
@@ -22,6 +22,7 @@ import Consult from './BookConsult';
     <Routes>
       <Route exact path="/" element={<Home/>}/> 
       <Route path="/about" element={<About/>}/> 
+        <Route path="/Gallery" element={<Gallery/>}/> 
       <Route path="/BookConsult" element={<Consult/>}/>
       </Routes>
       </div>
