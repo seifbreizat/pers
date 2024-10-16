@@ -13,7 +13,7 @@ const Footer =()=> {
       <p>Seif @ {new Date().getFullYear()}.All Rights reserved</p>
     </div>
      <div>    
-        <a href="privacy"> Privacy </a>
+        <a href="privacy.js"> Privacy </a>
 </div>
    <div>
      
