@@ -33,20 +33,7 @@ Fashion is good and wearing cools clothes is nice.
 </p>
 
        </div>
-       <div  class="container-wrap">
-                                            <img  src=""  height={} width={} alt="art">
-                                          <h2></h2>
-
-       <p></p>
-          <img  src=""  height={} width={} alt="art">
-                                          <h2></h2>
-
-       <p></p>   <img  src=""  height={} width={} alt="art">
-                                          <h2></h2>
-
-       <p></p>
-       
-       </div>
+    
        </div>
      
         </>
