@@ -11,7 +11,7 @@ const Home=()=> {
         
    
 
-<div class="text-main" style={{padding-right:800px; position:fixed;}}>
+<div class="text-main" style={{padding-right:800px;, position:fixed;}}>
        <h2> <strong> Fashion </strong> </h2>
        
 
