@@ -32,7 +32,7 @@ Fashion is good and wearing cools clothes is nice.
 
 </p>
 
-       </div>
+       
     
        </div>
      
