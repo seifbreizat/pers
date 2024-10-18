@@ -10,10 +10,10 @@ const Footer =()=> {
        
       <div>
         
-      <p>Seif @ {new Date().getFullYear()}.All Rights reserved</p>
+      <p style={padding-right:20px;}>Seif @ {new Date().getFullYear()}.All Rights reserved</p>
     </div>
      <div>    
-        <a href="privacy.js"> Privacy </a>
+        <a href="privacy.js" style={padding-right:20px;}> Privacy </a>
 </div>
    <div>
      
