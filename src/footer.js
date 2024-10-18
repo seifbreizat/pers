@@ -10,19 +10,18 @@ const Footer =()=> {
        
       <div>
         
-      <p style={{padding-right:20px;}}>Seif @ {new Date().getFullYear()}.All Rights reserved</p>
+      <p>Seif @ {new Date().getFullYear()}.All Rights reserved</p>
     </div>
      <div>    
-        <a href="privacy.js" style={{padding-right:20px;}}> Privacy </a>
+        <a href="privacy.js"> Privacy </a>
 </div>
    <div>
      
-            <img class="link-img" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-facebook.png" alt="Facebook" style={{padding-right:100%}}/>
+            <img class="link-img" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-facebook.png" alt="Facebook"/>
          
-            <img class="link-img" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-twitter.png" alt="Twitter" style={{padding-right:95%}}/>
+            <img class="link-img" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-twitter.png" alt="Twitter"/>
           
-            <img class="link-img" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-instagram.png" alt="instagram" style={{padding-right:90%}}/>
-
+            <img class="link-img" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-instagram.png" alt="instagram"/>
           
           
     
