@@ -17,11 +17,11 @@ const Footer =()=> {
 </div>
    <div>
      
-            <img class="link-img" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-facebook.png" height="5" width="2" alt="Facebook"/>
+            <img class="link-img" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-facebook.png" height="20" width="2" alt="Facebook"/>
          
-            <img class="link-img" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-twitter.png" height="5" width="2" alt="Twitter"/>
+            <img class="link-img" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-twitter.png" height="20" width="2" alt="Twitter"/>
           
-            <img class="link-img" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-instagram.png"  height="5" width="2" alt="instagram"/>
+            <img class="link-img" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-instagram.png"  height="20" width="2" alt="instagram"/>
           
           
     
