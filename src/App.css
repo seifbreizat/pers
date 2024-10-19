@@ -35,8 +35,9 @@ ul{
       }
 
     text-main{
-        padding-right:800px;
-        position:fixed;
+        position:relative;
+                padding-right:800px;
+
     }
 
       About,span{
