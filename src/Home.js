@@ -36,20 +36,20 @@ Fashion is good and wearing cools clothes is nice.
        <div className="article">
        <div className="article-title">
        <h2>  <a href="article1.js">Vice President Kamala Harris on Her Race to the Finish
-</h2>
+       </a></h2>
                                         <figcaption>By Nathan Heller Photography by Annie Leibovitz 
-                                                         October 11, 2024  </figcaption></a>
+                                                         October 11, 2024  </figcaption>
        </div>
                                                                 <div className="article-title">
        <h2>  <a href="article1.js">The First Woman on the Moon Will Wear This Prada Spacesuit
-</h2>
-                                        <figcaption>By Luke Leitch </figcaption></a>
+       </a></h2>
+                                        <figcaption>By Luke Leitch </figcaption>
        </div><div className="article-title">
        <h2>  <a href="article1.js">Trends
 As a Denimhead, I’m All In on Jean Bags
 
-</h2>
-                                        <figcaption>By Christian Allaire </figcaption></a>
+                                                                </a></h2>
+                                        <figcaption>By Christian Allaire </figcaption>
        </div>
                                                              
        </div>
